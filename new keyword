@@ -10,8 +10,8 @@ function AddTeacher (FirstName, LastName, Gender, Profession)
 {
     this.FirstName=FirstName;
     this.LastName=LastName;
-    this.Gender;
-    this.Profession;
+    this.Gender=Gender;
+    this.Profession=Profession;
 }
 
 var Teacher = new AddTeacher("Seshi", "Thota","M","AWS Developer");
