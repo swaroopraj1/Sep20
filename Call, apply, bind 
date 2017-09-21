@@ -1,0 +1,19 @@
+//call() apply() bind()
+
+var people = {
+    person1: 'Swaroop',
+    person2: 'Seshi',
+    Friends: function() {
+        var team = this.person1 + ' and ' + this.person2;
+        return team;
+    }
+};
+
+var Details = function(city, game) {
+   console.log(this.Friends() + " are from " + city + " and they play " + game);
+};
+
+Details.call(people,'Kurnool', 'Cricket'); 
+Details.apply(people,['Hyderabad', 'Badminton']);
+var abc = Details.bind(people);
+    abc('Tirupati', 'Hockey');

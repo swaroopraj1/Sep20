@@ -1,0 +1,20 @@
+//new keyword
+var student = {
+  FirstName: "Swaroop",
+  LastName: "Gudipalli",
+  Gender: "M",
+  Profession: "UI Developer"
+};
+
+function AddTeacher (FirstName, LastName, Gender, Profession)
+{
+    this.FirstName=FirstName;
+    this.LastName=LastName;
+    this.Gender;
+    this.Profession;
+}
+
+var Teacher = new AddTeacher("Seshi", "Thota","M","AWS Developer");
+var Teacher1 = new AddTeacher("Sathwik", "DNGSS", "M", "Validation Engineer")
+console.log(Teacher.FirstName);
+console.log(Teacher1.Profession);

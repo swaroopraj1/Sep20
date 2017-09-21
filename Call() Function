@@ -1,0 +1,8 @@
+var car = {
+	  name: "Mercedes"	
+	};
+var count = function(a) 
+	{
+	return "Total no of "+ this.name + " cars is "+a;
+	}
+console.log(count.call(car, 10));

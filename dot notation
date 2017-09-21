@@ -1,0 +1,13 @@
+// dot notation and [ ] notation
+var car= {
+  name : "Mustang",
+  model: 2017,
+  make : "Ford",
+"1234": "NumberPlate"
+};
+
+
+console.log("Executing using dot notation: "+ car.name);
+console.log("Executing using [ ] notation: " + car.name);
+//console.log("Executing using dot notation: "+ car.1234);
+console.log("Executing using dot notation: "+ car["1234"]);

@@ -1,0 +1,8 @@
+//window objects
+
+//window.alert("Hello")
+//window.name
+//window.location.origin
+//window.location.replace("https://facebook.com")
+//window.scrollTo(300,350)
+//window.resizeBy(300,400)
